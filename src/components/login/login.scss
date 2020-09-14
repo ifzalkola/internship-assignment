@@ -1,0 +1,52 @@
+.login-page {
+  height: 100vh;
+
+  .login-top {
+    height: 50vh;
+    background-size: 100% 100%;
+    margin: -1rem;
+
+    img {
+      margin-top: 5rem;
+      height: 50%;
+      width: 40%;
+    }
+  }
+  .login-bottom {
+    margin-top: 5rem;
+
+    h2 {
+      position: relative;
+      left: -8rem;
+    }
+    .login-btn-container {
+      display: flex;
+      flex-direction: column;
+      width: 80vw;
+      margin: auto;
+      button {
+        font-weight: normal;
+        font-size: medium;
+        display: flex;
+        align-items: center;
+        border: #f79837 solid 1px;
+        border-radius: 5px;
+        margin: 0.6rem;
+        background-color: #fff;
+        img {
+          margin: 0.2rem;
+          margin-right: 1rem;
+          width: 30px;
+        }
+      }
+    }
+    p {
+      display: flex;
+      flex-direction: column;
+      text-transform: capitalize;
+      span {
+        text-decoration: underline;
+      }
+    }
+  }
+}

@@ -1,0 +1,61 @@
+.mobile-login {
+  height: 100vh;
+
+  .mobile-login-top {
+    height: 50%;
+    background-size: 100% 100%;
+    margin: -1rem;
+
+    img {
+      width: 50%;
+      height: 45%;
+      margin-top: 6rem;
+    }
+  }
+  .mobile-login-bottom {
+    margin-top: 5rem;
+    text-align: left;
+    h2 {
+      padding-left: 2rem;
+    }
+    .input-container {
+      display: flex;
+      flex-direction: column;
+      text-align: left;
+      font-size: small;
+      width: 80vw;
+      margin: auto;
+
+      button {
+        background-color: #f79837;
+        border: #fff 1px solid;
+        padding: 1rem 2rem;
+        margin-top: 2rem;
+        border-radius: 5px;
+        color: #fff;
+        font-size: 1.5rem;
+      }
+      .input-wrapper {
+        margin-top: 0.4rem;
+        display: flex;
+        align-items: center;
+        border: #f79837 solid 1px;
+        border-radius: 5px;
+        background-color: #fff;
+        span {
+          font-size: 1.3rem;
+          padding: 0.5rem;
+        }
+      }
+      input {
+        border-radius: 5px;
+        width: 100%;
+        height: 100%;
+        font-size: 1.3rem;
+        padding: 1rem;
+        background-color: #fff;
+        border: none;
+      }
+    }
+  }
+}
